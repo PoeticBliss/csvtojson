@@ -15,7 +15,7 @@ class tojson {
       $this->json = array_map('str_getcsv', file($file));
       //$this->json = json_encode($this->json);
     }
-
+    $this->json = json_encode($this->json);
     // return json file content
     //return $json;
   }
