@@ -4,10 +4,7 @@ require 'inc/tojson.php';
 
 $json = new tojson('insurance.csv');
 
-// use getjson() method to get results
+// use getjson() method to see results
 print_r($json->getjson());
-
-//$arr = array_map('str_getcsv', file("insurance.csv"));
-//print_r(json_encode($arr));
 
  ?>
