@@ -14,3 +14,6 @@ $json = new tojson('mycsvfile.csv');
 print_r($json->getjson());
 ?>
 ```
+
+## Resulting json from sample csv file
+![CSVtoJSON JSON result](http://i.imgur.com/QWqy2Bh.png)
